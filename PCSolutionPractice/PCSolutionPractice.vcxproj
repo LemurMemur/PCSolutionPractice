@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="drawables.cpp" />
+    <ClCompile Include="utils.cpp" />
     <ClCompile Include="win32_platform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drawables.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PCSolutionPractice.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
